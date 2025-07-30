@@ -39,7 +39,7 @@ const Hero = () => {
   return (
     <>
     <div className='outerdiv' ref={outerDivRef}>
-      <div id="expandable" ref={expandableRef}>Kill <br/> the PDF</div>     
+      <div id="expandable" ref={expandableRef}>Lorem <br/>ipsum lore</div>     
 <div class={`cards-container ${showCards ? 'visible' : ''}`}>
   <div class="cards card-1">
     <h3>Lorem Ipsum</h3>

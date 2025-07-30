@@ -42,8 +42,8 @@ const DotExpand = () => {
 
       <div className="dot" ref={dotRef}></div>
       <div className="green-screen" ref={greenRef}>
-        <h1>Lorem.<br />Ipsum.<br />Lorem.</h1>
-        <p>
+        <h1 className='text-2xl font-bold text-center'>Lorem.<br />Ipsum.<br />Lorem.</h1>
+        <p className='text-lg font-light text-center mt-4'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>

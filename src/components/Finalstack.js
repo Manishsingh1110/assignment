@@ -124,8 +124,12 @@ const Finalstack = () => {
     }, []);
 
     return (
-        <>
-            <section className="sections bg-black">
+        <div className="bg-black">
+          <p className='md:text-7xl text-right text-2xl text-white font-bold px-10 py-40 md:py-20'>
+       Where can I get some?
+      </p>
+            <section className="sections bg-black py-24">
+                
                 <ul className="stack-cards js-stack-cards" ref={stackRef}>
                     <li className="stack-cards__item js-stack-cards__item">
                         <h2 className="headingh2">Hello,<br /> friend.</h2>
@@ -153,6 +157,6 @@ const Finalstack = () => {
                     </li>
                 </ul>
             </section>
-        </>);
+        </div>);
 };
 export default Finalstack;
