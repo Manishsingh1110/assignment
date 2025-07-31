@@ -129,7 +129,7 @@ const LogoBubbles = () => {
   };
 
   return (
-    <div className="md:flex hidden flex-col items-center justify-center bg-black p-10 sm:p-6">
+    <div className="flex flex-col items-center justify-center bg-black md:p-10 p-2 sm:p-6">
       <p className='md:text-7xl text-2xl text-white font-bold text-center my-8 md:py-20'>
         Where does it come from?<br />Where does it come from?
       </p>
