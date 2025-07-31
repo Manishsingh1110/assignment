@@ -77,92 +77,71 @@
 }
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .stack-cards {
-    width: 90%;
-  }
 
-  .stack-cards__item {
-    padding: 6rem;
-  }
+ .headingh2{
+    font-size: 4rem;
+    line-height: 1;
+    font: 700;
+}
 
-  .headingh2 {
-    font-size: 5rem;
-  }
-
-  .grid-container {
-    gap: 1.5rem;
-    padding: 1.5rem;
-  }
-
-  .grid-text h2 {
-    font-size: 1.3rem;
-  }
-
-  .grid-text p {
-    font-size: 0.95rem;
-  }
+.stack-cards__item  {
+  position: sticky;
+  top: var(--space-sm);
+  transform-origin: center top;
+  background: #EFEFEF;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 1.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin: 0 0 2em 0;
+}
 }
 
 @media (max-width: 768px) {
-  :root {
-    --space-sm: 2em;
-  }
-
-  .stack-cards__item {
-    padding: 4rem;
-  }
-
-  .headingh2 {
-    font-size: 3.5rem;
-  }
-
-  .grid-container {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-  }
-
-  .grid-box {
-    height: 180px;
-    font-size: 1rem;
-  }
-
-  .grid-text h2 {
-    font-size: 1.2rem;
-  }
-
-  .grid-text p {
-    font-size: 0.9rem;
-  }
+  
+.headingh2{
+    font-size: 3rem;
+    line-height: 1;
+    font: 700;
+}
+.stack-cards__item  {
+  position: sticky;
+  top: var(--space-sm);
+  transform-origin: center top;
+  background: #EFEFEF;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 1.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin: 0 0 2em 0;
+}
 }
 
 @media (max-width: 480px) {
-  .stack-cards {
-    width: 95%;
-  }
 
-  .stack-cards__item {
-    padding: 2rem;
-  }
-
-  .headingh2 {
-    font-size: 2.5rem;
-  }
-
-  .grid-container {
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .grid-box {
-    height: 150px;
-    font-size: 0.95rem;
-  }
-
-  .grid-text h2 {
-    font-size: 1rem;
-  }
-
-  .grid-text p {
-    font-size: 0.85rem;
-  }
+.headingh2{
+    font-size: 3rem;
+    line-height: 1;
+    font: 700;
+}
+.stack-cards__item  {
+  position: sticky;
+  top: var(--space-sm);
+  transform-origin: center top;
+  background: #EFEFEF;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 1.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin: 0 0 2em 0;
+}
 }

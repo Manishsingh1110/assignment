@@ -3,6 +3,7 @@
   text-align: center;
   position: relative;
   background-color: black;
+  overflow: clip;
 }
 body{
   overflow-x: hidden;

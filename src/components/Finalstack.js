@@ -125,10 +125,10 @@ const Finalstack = () => {
 
     return (
         <div className="bg-black">
-          <p className='md:text-7xl text-right text-2xl text-white font-bold px-10 py-40 md:py-20'>
+          <p className='md:text-7xl text-right text-2xl text-white font-bold px-10 py-4 sm:py-8 md:py-20'>
        Where can I get some?
       </p>
-            <section className="sections bg-black py-24">
+            <section className="sections bg-black py-4 sm:py-8 md:py-20">
                 
                 <ul className="stack-cards js-stack-cards" ref={stackRef}>
                     <li className="stack-cards__item js-stack-cards__item">
